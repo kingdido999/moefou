@@ -1,7 +1,7 @@
 {
   "name": "Moefou",
   "version": "0.0.1",
-  "description": "moefou and moe.fm API wrapper (萌否)",
+  "description": "Moefou 萌否 API wrapper",
   "main": "./lib/moefou.js",
   "scripts": {
     "test": "mocha"
