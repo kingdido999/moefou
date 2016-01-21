@@ -118,4 +118,11 @@ describe('Moefou API', function() {
       API.listenPlaylist({}, done);
     });
   });
+
+  // 网页接口 -------------------------------------------------------------------
+  describe('explore test', function() {
+    it('should get content from explore page', function(done) {
+      API.explore({ new_musics: 1 }, done);
+    });
+  });
 });
