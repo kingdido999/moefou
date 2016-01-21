@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const config = JSON.parse(fs.readFileSync(path.normalize(__dirname + '/config.json', 'utf8')));
 
-describe('Moefm API', function() {
-  const Moefm = require('../lib/moefm.js');
-  const API = new Moefm(config.apiKey);
+describe('Moefou API', function() {
+  const Moefou = require('../lib/moefou.js');
+  const API = new Moefou(config.apiKey);
 
   // 条目 ----------------------------------------------------------------------
   describe('wikis test', function() {

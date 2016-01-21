@@ -1,17 +1,18 @@
 {
-  "name": "moefm",
+  "name": "Moefou",
   "version": "0.0.1",
-  "description": "moe.fm API wrapper",
-  "main": "./lib/moefm.js",
+  "description": "moefou and moe.fm API wrapper (萌否)",
+  "main": "./lib/moefou.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
+    "Moefou",
     "moefm",
-    "moe",
-    "fm",
     "radio",
-    "music"
+    "music",
+    "萌否",
+    "萌否电台"
   ],
   "author": "Pengcheng Ding",
   "license": "MIT",
