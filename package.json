@@ -1,0 +1,22 @@
+{
+  "name": "moefm",
+  "version": "0.0.1",
+  "description": "moe.fm API wrapper",
+  "main": "./lib/moefm.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "moefm",
+    "moe",
+    "fm",
+    "radio",
+    "music"
+  ],
+  "author": "Pengcheng Ding",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.67.0",
+    "xtend": "^4.0.1"
+  }
+}
