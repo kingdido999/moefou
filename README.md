@@ -46,9 +46,9 @@ This is a node module that allows you to interact with [萌否API](http://open.m
 
   - web/网页接口
     - [x] explore?api=format
-    - [ ] music/{wiki_id}?api=format
-    - [ ] music/{wiki_id}/songs?api=format
-    - [ ] music/{wiki_id}/favs?api=format
+    - [x] music/{wiki_id}?api=format
+    - [x] music/{wiki_id}/songs?api=format
+    - [x] music/{wiki_id}/favs?api=format
 
   - other/其他接口
     - [ ] search/direct

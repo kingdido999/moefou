@@ -125,4 +125,22 @@ describe('Moefou API', function() {
       API.explore({ new_musics: 1 }, done);
     });
   });
+
+  describe('music test', function() {
+    it('should get content from music page', function(done) {
+      API.music(47251, done);
+    });
+  });
+
+  describe('music songs test', function() {
+    it('should get content from music songs page', function(done) {
+      API.musicSongs(47251, done);
+    });
+  });
+
+  describe('music favs test', function() {
+    it('should get content from music favs page', function(done) {
+      API.musicFavs(47251, done);
+    });
+  });
 });
