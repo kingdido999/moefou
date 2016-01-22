@@ -1,5 +1,5 @@
 {
-  "name": "Moefou",
+  "name": "moefou",
   "version": "0.0.1",
   "description": "Moefou 萌否 API wrapper",
   "main": "./lib/moefou.js",
