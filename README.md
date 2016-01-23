@@ -31,11 +31,6 @@ Fill in `apiKey` in `config-sample.json`, rename the file to `config.json`.
 
 Run tests: `mocha`
 
-## Authentication
-
-- [x] API key
-- [ ] OAuth
-
 ## Endpoints
 
 - api.moefou.org
